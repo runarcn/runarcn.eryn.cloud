@@ -33,3 +33,6 @@ p { /* while this one is mostly for the body, it also applies to the navbar sinc
 	margin: auto;
 }
 
+footer {
+	padding-top: 20px;
+}
