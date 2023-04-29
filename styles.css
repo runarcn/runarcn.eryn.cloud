@@ -3,6 +3,11 @@
 	src: url("/JuliaMono-Regular.ttf") format ("truetype");
 }
 
+nav a {
+	color: 551A6A;
+	
+}
+
 body {
 	margin: 0;
 	background-color: #1E1E20;
