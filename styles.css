@@ -1,6 +1,6 @@
 /* import font from / directory */
 @font-face {
-	font-family: "juliaMono";
+	font-family: "juliaMono", monospace;
 	src: url("/JuliaMono-Regular.ttf") format ("truetype");
 }
 
@@ -14,7 +14,6 @@ find formatting for individual elements commonly used in body (headers, paragrap
 body {
 	margin: 0;
 	background-color: #1E1E20;
-	font-family: monospace;
 	line-height: 1.5;
 	font-family: "juliaMono", monospace;
 	text-align: center;
@@ -35,4 +34,8 @@ p { /* while this one is mostly for the body, it also applies to the navbar sinc
 
 footer {
 	padding-top: 20px;
+}
+
+a {
+	color: #551A6A;
 }
