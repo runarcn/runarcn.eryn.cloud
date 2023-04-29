@@ -5,8 +5,12 @@
 }
 
 /* formatting for the navigation bar */
-.navBar {
+header {
 	text-align: left;
+	display: flex;
+	padding-left: 40px;
+	padding-top: 10px;
+	/* padding-bottom: 20px; */
 }
 
 /* formatting for the body element
