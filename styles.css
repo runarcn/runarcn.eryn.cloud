@@ -44,6 +44,12 @@ a {
 	color: #CC33FF;
 }
 
+/* main text container */
+	.mainContainer {
+		max-width: 700px;
+		margin: 0 auto;
+	}
+
 /* blogContainer for /blogs.html */
 	.blogContainer {
 		text-align: left;
@@ -51,9 +57,10 @@ a {
 		border: 5px red;
 		color: pink;
 		line-height: 1;
-		max-width: 700px;
+		max-width: 900px;
 	}
 
 	.blogContainer a {
 		color: pink;
 	}
+
