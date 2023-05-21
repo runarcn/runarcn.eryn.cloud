@@ -1,0 +1,49 @@
+/* import font from / directory */
+@font-face {
+	font-family: "juliaMono", monospace;
+	src: url("/JuliaMono-Regular.ttf") format ("truetype");
+}
+
+/* formatting for the navigation bar */
+header {
+	text-align: left;
+	display: flex;
+	padding-left: 40px;
+	padding-top: 10px;
+}
+
+body {
+	margin: 0;
+	background-color: #1E1E20;
+	line-height: 1.5;
+	font-family: "juliaMono", monospace;
+	text-align: center;
+    color: #FFFFFF;
+}
+
+h1 {
+	color: #9900CC;	
+	line-height: 1.25;
+}
+
+footer {
+	padding-top: 20px;
+}
+
+a {
+	color: #CC33FF;
+}
+
+/* blogContainer for /blogs.html */
+.blogContainer {
+    text-align: left;
+    margin: 0 auto;
+    border: 5px red;
+    color: pink;
+    line-height: 1;
+    max-width: 700px;
+}
+
+.blogContainer a {
+    color: pink;
+}
