@@ -1,7 +1,11 @@
-/* import font from / directory */
 @font-face {
 	font-family: "juliaMono", monospace;
 	src: url("/JuliaMono-Regular.ttf") format ("truetype");
+}
+
+@font-face {
+	font-family: 'Lato', sans-serif;
+	src: url("/blogs/Lato-Regular.ttf") format ("truetype");
 }
 
 /* formatting for the navigation bar */
@@ -58,9 +62,9 @@ a {
 		color: pink;
 		line-height: 1;
 		max-width: 900px;
+		font-family: 'Lato', 'sans-serif'
 	}
 
 	.blogContainer a {
 		color: pink;
 	}
-
