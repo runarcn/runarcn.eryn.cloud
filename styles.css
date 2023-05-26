@@ -58,13 +58,12 @@ a {
 	.blogContainer {
 		text-align: left;
 		margin: 0 auto;
-		border: 5px red;
-		color: pink;
+		color: white;
 		line-height: 1;
 		max-width: 900px;
 		font-family: 'Lato', 'sans-serif'
 	}
 
 	.blogContainer a {
-		color: pink;
+		color: white;
 	}
